@@ -4,12 +4,12 @@ namespace TwitterAPI.Entities
     {
         public int authorId { get; set ;}
         public string? postContent { get ; set ;}
-        public DateTime postTime { get; set;}
+        public int postID { get ; set ;}
         public string? postAuthor { get; set ;}
 
-        public void CreateNewPost(Users id)
+        public void EditPost(string? _postContent)
         {
-            
+            postContent = _postContent;
         }
 
     }

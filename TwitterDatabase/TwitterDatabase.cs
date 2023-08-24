@@ -27,7 +27,12 @@ namespace TwitterAPI.Database
         public PostsDatabase()
         {
             PostsList = new List<Posts>();
-            PostsList.Add(new Posts() { postAuthor = "Lira", postContent = "Good morning to y'all!!!" });
+            PostsList.Add(new Posts() { postAuthor = "Lira", postContent = "Bomdia!", postID = 0 });
+            PostsList.Add(new Posts() { postAuthor = "Stenio", postContent = "Hello!", postID = 1 });
+            PostsList.Add(new Posts() { postAuthor = "Fabo", postContent = "Opa!", postID = 2 });
+            PostsList.Add(new Posts() { postAuthor = "Freitas", postContent = "Boanoite!", postID = 3 });
+            PostsList.Add(new Posts() { postAuthor = "Ryan", postContent = "Boatarde!", postID = 4 });
+            PostsList.Add(new Posts() { postAuthor = "Marcos", postContent = "wowowow!", postID = 5 });
         }
     }
 }
