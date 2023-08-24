@@ -4,7 +4,7 @@ namespace TwitterAPI.Entities
     public class Users
     {
         public int UserId { get; set; }
-        public Guid UUID { get; set; }
+
         public string? Username { get; set; }
         public string? Password { get; set; }
 
@@ -20,10 +20,7 @@ namespace TwitterAPI.Entities
             Password = _password;
         }
 
-        public static Guid NewUUID(Users _UUID)
-        {
-            return _UUID.UUID = Guid.NewGuid();
-        }
+
     }
 
     
